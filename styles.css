@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212; 
+    color: #fff; 
+    margin-top: 80px; 
+}
+
+/* Navbar Styles */
+.navbar {
+    position: absolute;         
+    top: 20px;                  
+    right: 20px;                
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+}
+
+.navbar .logo a {
+    color: #f39c12;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: auto;        
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #f39c12;
+}
+
+/* Content Pane */
+.content-pane {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.web-intro p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Skills Section */
+.skills-offered {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skills-offered h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-style: italic;
+}
+
+/* Skill Rows */
+.skill-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.skill {
+    flex: 1;
+    min-width: 150px;
+    max-width: 250px;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.skill-pic {
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.skill h2 {
+    color: orange;
+    margin-top: 10px;
+}
+
+/* Projects and Customers Section */
+.projects-customers {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+}
+
+.projects {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.number h1 {
+    color: aquamarine;
+    font-size: 2em;
+}
+
+.projects h4 {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px;
+}

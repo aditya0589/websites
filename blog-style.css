@@ -1,0 +1,23 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f0b445;
+}
+
+a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
